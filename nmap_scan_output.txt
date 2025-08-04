@@ -1,0 +1,43 @@
+# Nmap 7.97 scan initiated Mon Aug  4 22:06:00 2025 as: nmap -sS -oN nmap_scan_output.txt -oX C:\\Users\\navee\\AppData\\Local\\Temp\\zenmap-us2qund5.xml 10.197.155.0/24
+Nmap scan report for 10.197.155.48
+Host is up (0.0076s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+7000/tcp open afs3-fileserver
+8001/tcp open vcom-tunnel
+8002/tcp open teradataordbms
+8080/tcp open http-proxy
+MAC Address: C8:A6: EF: 44:55: 0C (Samsung Electronics)
+Nmap scan report for 10.197.155.48
+Host is up (0.011s latency) .
+Not shown: 999 closed tcp ports (reset)
+PORT STATE SERVICE
+53/tcp open domain
+MAC Address: F6: 4A : 9B : E4: 24: E3 (Unknown)
+
+Nmap scan report for 10.197.155.189
+Host is up (0.010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 92:C8 :AC : AF: 68:A0 (Unknown)
+
+Nmap scan report for 10.197.155.224
+Host is up (0.00066s latency) .
+Not shown: 988 closed tcp ports (reset)
+PORT       STATE  SERVICE
+135/tcp     open  msrpc
+139/tcp     open  netbios-ssn
+445/tcp     open  microsoft-ds
+554/tcp     open  rtsp
+808/tcp     open  ccproxy-http
+1521/tcp    open  oracle
+2869/tcp    open  icslap
+3306/tcp    open  mysq
+6881/tcp    open  bittorrent-tracker
+7070/tcp    open  realserver
+9001/tcp    open  tor-orport
+10243/tcp   open  unknown
+
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 41.89 seconds

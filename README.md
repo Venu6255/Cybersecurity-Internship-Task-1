@@ -12,16 +12,16 @@ Tools Used
   Researched Common Services: I researched the common services running on the identified open ports to understand their function and potential security implications.
 # Scan Results :
 The Nmap scan, which completed in 41.89 seconds, identified four hosts as being "up" on the network. The following open ports and services were discovered on each host:
- # **Host: 10.197.155.2
+ # Host: 10.197.155.2
     7000/tcp: afsj-fileserver
     8001/tcp: vcom-tunnel
     8002/tcp: teradatardbms
     8080/tcp: http-proxy
- # * Host: 10.197.155.48
+ #  Host: 10.197.155.48
     53/tcp: domain
- # * Host: 10.197.155.189
+ #  Host: 10.197.155.189
     5060/tcp: filtered zip
- # * Host: 10.197.155.224
+ #  Host: 10.197.155.224
     135/tcp: msrpc
     139/tcp: netbios-ssn
     445/tcp: microsoft-ds
